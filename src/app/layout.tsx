@@ -26,12 +26,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${horizon.variable} antialiased`}
+        className={`${inter.variable} ${horizon.variable} antialiased bg-gradient-to-br from-background via-surface to-background min-h-screen`}
       >
-        <Navbar />
-        <main className="max-w-4xl mx-auto px-4 py-8">{children}</main>
+        <div className="relative">
+          {/* Background gradient overlay */}
+          <div className="fixed inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 pointer-events-none"></div>
+          
+          {/* Main content */}
+          <div className="relative z-10">
+            <Navbar />
+            <main className="container mx-auto px-4 py-8 max-w-7xl">
+              {children}
+            </main>
+          </div>
+        </div>
       </body>
     </html>
   );
