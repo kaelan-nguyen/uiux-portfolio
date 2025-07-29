@@ -9,13 +9,15 @@ type Props = {
 
 export default function ProjectCard({ title, description, link, tags }: Props) {
   return (
-    <Link href={link} className="block border p-4 rounded-lg hover:shadow-lg transition">
-      <h3 className="text-xl font-semibold">{title}</h3>
-      <p className="mt-2 text-gray-700">{description}</p>
+    <Link href={link} className="block card glass hover:glow transition-all duration-300 group">
+      <h3 className="text-xl font-semibold text-white mb-3 font-cascadia">{title}</h3>
+      <p className="text-text-secondary mb-4">{description}</p>
       {tags && (
-        <div className="mt-2 flex flex-wrap gap-2 text-sm text-gray-500">
+        <div className="flex flex-wrap gap-2 text-sm">
           {tags.map((tag, i) => (
-            <span key={i}>#{tag}</span>
+            <span key={i} className="px-3 py-1 bg-primary/20 text-primary rounded-full font-medium">
+              {tag}
+            </span>
           ))}
         </div>
       )}

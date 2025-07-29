@@ -129,7 +129,7 @@ body {
 
 /* Card styles */
 .card {
-  background: rgba(30, 27, 75, 0.8);
+  background: rgba(30, 27, 75, 0.2);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(139, 92, 246, 0.2);
   border-radius: 12px;

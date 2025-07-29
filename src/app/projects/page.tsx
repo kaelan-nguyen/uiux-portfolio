@@ -1,29 +1,50 @@
+import Link from 'next/link';
 import ProjectCard from '@/components/ProjectCard';
 
-const projects = [
-  {
-    title: 'Coursebite UI/UX Case Study',
-    description: 'End-to-end redesign of Coursebite’s study experience.',
-    link: '/projects/coursebite', // optional route later
-    tags: ['UI/UX', 'Case Study'],
-  },
-  {
-    title: 'Poster Series – Lunar & Retro',
-    description: 'Graphic art posters exploring texture, typography, and mood.',
-    link: 'https://www.behance.net/kaelannguyen', // example
-    tags: ['Graphic Design', 'Art'],
-  },
-];
-
 export default function Projects() {
+  const projects = [
+    {
+      title: "Coursebite UI/UX Case Study",
+      description: "A comprehensive case study for an AI-powered education platform that revolutionizes how students study and learn.",
+      tags: ["ui/ux case study", "graphics", "web dev"],
+      link: "/projects/coursebite"
+    },
+    {
+      title: "Graphics Portfolio",
+      description: "A collection of graphic design work including branding, marketing materials, and visual design projects.",
+      tags: ["graphics", "branding", "marketing"],
+      link: "/projects/graphics"
+    }
+  ];
+
   return (
-    <section>
-      <h2 className="text-2xl font-bold">Projects</h2>
-      <div className="mt-6 space-y-6">
-        {projects.map((p, idx) => (
-          <ProjectCard key={idx} {...p} />
-        ))}
-      </div>
-    </section>
+    <div className="min-h-screen relative">
+      <section className="section fade-in">
+        <div className="max-w-6xl mx-auto">
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 font-horizon text-white glow-text">
+              PROJECTS
+            </h1>
+            <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto">
+              A collection of my work in UI/UX design, graphic design, and web development.
+            </p>
+          </div>
+
+          {/* Projects Grid */}
+          <div className="grid grid-cols-1 gap-8 max-w-4xl mx-auto">
+            {projects.map((project, index) => (
+              <ProjectCard
+                key={index}
+                title={project.title}
+                description={project.description}
+                tags={project.tags}
+                link={project.link}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }

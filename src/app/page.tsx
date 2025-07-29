@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import GlassCard from '@/components/GlassCard';
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 slide-up">
+          
           <div className="card glass hover:glow">
             <div className="flex items-center justify-between">
               <div>
@@ -56,6 +58,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          
 
           <div className="card glass hover:glow">
             <div className="flex items-center justify-between">
