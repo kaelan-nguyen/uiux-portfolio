@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Cascadia_Code, Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+
+const cascadiaCode = Cascadia_Code({
+  variable: "--font-cascadia",
+  subsets: ["latin"],
+});
 
 const inter = Inter({
   variable: "--font-inter",
@@ -28,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${horizon.variable} antialiased bg-gradient-to-br from-background via-surface to-background min-h-screen`}
+        className={`${cascadiaCode.variable} ${inter.variable} ${horizon.variable} antialiased bg-gradient-to-br from-background via-surface to-background min-h-screen`}
       >
         <div className="relative">
           {/* Background gradient overlay */}

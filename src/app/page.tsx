@@ -1,14 +1,42 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen relative overflow-hidden">
+      {/* Rotating Splatters */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Large splatter - rotating clockwise */}
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] opacity-60 animate-spin-slow">
+          <Image 
+            src="/splatter.png" 
+            alt="" 
+            width={600} 
+            height={600} 
+            className="w-full h-full object-contain" 
+          />
+        </div>
+        
+        {/* Small splatter in middle - rotating counter-clockwise */}
+        <div className="absolute top-[200px] right-[200px] w-[200px] h-[200px] opacity-80 animate-spin-reverse">
+          <Image 
+            src="/splatter.png" 
+            alt="" 
+            width={200} 
+            height={200} 
+            className="w-full h-full object-contain" 
+          />
+        </div>
+      </div>
+
       {/* Hero Section */}
-      <section className="section fade-in">
-        <div className="text-center mb-16">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 font-horizon gradient-text glow-text">
-            Hey, I&apos;m Kaelan 👋
+      <section className="section fade-in relative z-10">
+        <div className="text-left mb-16">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 font-horizon text-white glow-text">
+            Kaelan Nguyen
           </h1>
-          <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto leading-relaxed slide-up">
-            I&apos;m a UI/UX designer and developer blending clean design with functional frontends. 
+          <p className="text-xl md:text-2xl text-text-secondary max-w-3xl leading-relaxed slide-up">
+            I do UI/UX, graphic design, and web development. I bring visions to life. 
             Here&apos;s some of my work.
           </p>
         </div>
@@ -59,55 +87,18 @@ export default function Home() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center slide-up">
-          <div className="inline-flex gap-4">
-            <button className="btn-primary">
-              View My Work
-            </button>
-            <button className="btn-secondary">
-              Get In Touch
-            </button>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Work Preview */}
-      <section className="section">
-        <div className="mb-12">
-          <h2 className="section-title text-center">Featured Work</h2>
-          <p className="section-subtitle text-center mx-auto">
-            A showcase of my latest projects and design work
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="card group cursor-pointer">
-            <div className="relative overflow-hidden rounded-lg mb-4">
-              <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg"></div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <div className="p-4 text-white">
-                  <h3 className="text-lg font-semibold">Project Alpha</h3>
-                  <p className="text-sm text-gray-300">UI/UX Design • Web Development</p>
-                </div>
-              </div>
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Project Alpha</h3>
-            <p className="text-text-secondary">A modern web application with intuitive user experience and clean design principles.</p>
-          </div>
-
-          <div className="card group cursor-pointer">
-            <div className="relative overflow-hidden rounded-lg mb-4">
-              <div className="w-full h-48 bg-gradient-to-br from-accent/20 to-primary/20 rounded-lg"></div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <div className="p-4 text-white">
-                  <h3 className="text-lg font-semibold">Project Beta</h3>
-                  <p className="text-sm text-gray-300">Mobile App • Brand Design</p>
-                </div>
-              </div>
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Project Beta</h3>
-            <p className="text-text-secondary">Mobile application featuring innovative design patterns and seamless user interactions.</p>
-          </div>
+        <div className="slide-up">
+          <Link href="/projects" className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary to-primary-dark text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-primary/25 transition-all duration-300 group">
+            <span className="text-lg">View Projects</span>
+            <svg 
+              className="w-5 h-5 transition-transform duration-300 group-hover:rotate-45" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 17l9.2-9.2M17 17V7H7" />
+            </svg>
+          </Link>
         </div>
       </section>
     </div>

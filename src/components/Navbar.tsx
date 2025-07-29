@@ -12,29 +12,26 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
-            <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <span className="text-white font-bold text-sm">K</span>
-            </div>
-            <span className="text-xl font-bold font-horizon gradient-text">Kaelan Nguyen</span>
+            <span className="text-xl font-bold font-cascadia text-white">Kaelan Nguyen</span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link 
               href="/" 
-              className="text-text-secondary hover:text-primary transition-colors duration-300 font-medium"
+              className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
             >
               Home
             </Link>
             <Link 
               href="/projects" 
-              className="text-text-secondary hover:text-primary transition-colors duration-300 font-medium"
+              className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
             >
               Projects
             </Link>
             <Link 
               href="/about" 
-              className="text-text-secondary hover:text-primary transition-colors duration-300 font-medium"
+              className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
             >
               About
             </Link>
@@ -50,7 +47,7 @@ export default function Navbar() {
           >
             <svg className="w-6 h-6 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isMenuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L6 6M6 6l12 12" />
               ) : (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               )}
@@ -64,21 +61,20 @@ export default function Navbar() {
             <div className="flex flex-col space-y-4">
               <Link 
                 href="/" 
-                className="text-text-secondary hover:text-primary transition-colors duration-300 font-medium py-2"
+                className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 href="/projects" 
-                className="text-text-secondary hover:text-primary transition-colors duration-300 font-medium py-2"
-                onClick={() => setIsMenuOpen(false)}
+                className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
               >
                 Projects
               </Link>
               <Link 
                 href="/about" 
-                className="text-text-secondary hover:text-primary transition-colors duration-300 font-medium py-2"
+                className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
