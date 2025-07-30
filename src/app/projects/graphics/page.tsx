@@ -90,18 +90,15 @@ export default function GraphicsPortfolio() {
             </div>
                      </div>
            <div className="flex items-center justify-center mb-12">
-             <div className="card glass p-0 w-full">
-               <video 
-                 src="/cb this is cb post.mp4" 
-                 autoPlay 
-                 loop 
-                 muted 
-                 playsInline
-                 className="w-full h-auto"
-                 controls
-               >
-                 Your browser does not support the video tag.
-               </video>
+             <div className="card glass p-0 w-96 h-96">
+               <iframe
+                 src="https://www.youtube.com/embed/c5YRFnvxydU"
+                 title="Coursebite Video"
+                 className="w-full h-full"
+                 frameBorder="0"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                 allowFullScreen
+               ></iframe>
              </div>
            </div>
            <div className="flex items-center justify-center">
