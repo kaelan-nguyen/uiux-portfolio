@@ -24,8 +24,9 @@ export default function Home() {
             Kaelan Nguyen
           </h1>
           <p className="text-xl md:text-2xl text-text-secondary max-w-3xl leading-relaxed slide-up">
-            I do UI/UX, graphic design, and web development. I bring visions to life. 
-            Here&apos;s some of my work.
+            I do UI/UX, graphic design, and web development.
+            <br />
+            I bring visions to life. Here&apos;s some of my work.
           </p>
         </div>
 
