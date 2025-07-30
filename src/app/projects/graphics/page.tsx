@@ -89,21 +89,21 @@ export default function GraphicsPortfolio() {
                />
             </div>
                      </div>
-                       {/* <div className="flex items-center justify-center mb-12">
-              <div className="card glass p-0 w-full">
-                                 <video 
-                   src="/cb this is cb post.mp4" 
-                   autoPlay 
-                   loop 
-                   muted 
-                   playsInline
-                   className="w-full h-auto"
-                   controls
-                 >
-                   Your browser does not support the video tag.
-                 </video>
-              </div>
-            </div> */}
+           <div className="flex items-center justify-center mb-12">
+             <div className="card glass p-0 w-full">
+               <video 
+                 src="/cb this is cb post.mp4" 
+                 autoPlay 
+                 loop 
+                 muted 
+                 playsInline
+                 className="w-full h-auto"
+                 controls
+               >
+                 Your browser does not support the video tag.
+               </video>
+             </div>
+           </div>
            <div className="flex items-center justify-center">
              <div className="flex items-center space-x-6">
                               <Image 
