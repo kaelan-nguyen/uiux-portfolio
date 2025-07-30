@@ -14,11 +14,11 @@ export default function About() {
             
             {/* Right Side - Profile Picture */}
             <div className="flex justify-center lg:justify-end">
-              <div className="relative w-64 h-64 rounded-full overflow-hidden">
+              <div className="relative w-96 h-auto">
                 <img 
                   src="/kaelan-nguyen-professional-portrait.jpg" 
                   alt="Kaelan Nguyen Professional Portrait" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-auto object-contain"
                 />
               </div>
             </div>
@@ -53,10 +53,11 @@ export default function About() {
                 <li>Visual Design & Branding</li>
                 <li>User Interface Design</li>
                 <li>User Experience Design</li>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
                 <li>Responsive Design</li>
                 <li>Market & User Research</li>
                 <li>Wire-framing & Prototyping</li>
-                <li>Graphic Design</li>
                 <li>Typography</li>
                 <li>Data Visualization</li>
                 <li>Social Media Graphics</li>

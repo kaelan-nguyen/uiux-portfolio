@@ -422,7 +422,7 @@ export default function CoursebiteCaseStudy() {
             <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">USER FLOW</h3>
             <div className="space-y-6">
               <Image 
-                src="/cb user flow.png" 
+                src="/cb-user-flow.png" 
                 alt="Coursebite User Flow" 
                 width={800} 
                 height={600} 

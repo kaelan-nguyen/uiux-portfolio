@@ -34,23 +34,23 @@ export default function GraphicsPortfolio() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">FREELANCE COMMISSIONS</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div className="card glass">
-              <Image 
-                src="/hvnsan logo 4 pfp.png" 
-                alt="BASS Hanson Logo" 
-                width={800} 
-                height={600} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/bts party burn book ver.png" 
-                alt="Burn Book Event Poster" 
-                width={800} 
-                height={600} 
-                className="w-full h-auto rounded-lg" 
-              />
+            <div className="card glass p-0">
+                             <Image 
+                 src="/hvnsan logo 4 pfp.png" 
+                 alt="BASS Hanson Logo" 
+                 width={800} 
+                 height={600} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/bts party burn book ver.png" 
+                 alt="Burn Book Event Poster" 
+                 width={800} 
+                 height={600} 
+                 className="w-full h-auto" 
+               />
             </div>
           </div>
         </div>
@@ -61,46 +61,60 @@ export default function GraphicsPortfolio() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">COURSEBITE</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            <div className="card glass">
-              <Image 
-                src="/cb ig raffle post.png" 
-                alt="Coursebite Raffle Post" 
-                width={500} 
-                height={400} 
-                className="w-full h-auto rounded-lg" 
-              />
+            <div className="card glass p-0">
+                             <Image 
+                 src="/cb ig raffle post.png" 
+                 alt="Coursebite Raffle Post" 
+                 width={500} 
+                 height={400} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/study tips cover.png" 
+                 alt="Study Tips Cover" 
+                 width={500} 
+                 height={400} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/cb ig1.png" 
+                 alt="Coursebite IG Post" 
+                 width={500} 
+                 height={400} 
+                 className="w-full h-auto" 
+               />
             </div>
-            <div className="card glass">
-              <Image 
-                src="/study tips cover.png" 
-                alt="Study Tips Cover" 
-                width={500} 
-                height={400} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/cb ig1.png" 
-                alt="Coursebite IG Post" 
-                width={500} 
-                height={400} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-          </div>
-          <div className="flex items-center justify-center">
-            <div className="flex items-center space-x-6">
-              <h3 className="text-4xl font-bold text-white font-cascadia">coursebite</h3>
-              <Image 
-                src="/coursebite logo.png" 
-                alt="Coursebite Logo" 
-                width={50} 
-                height={50} 
-                className="w-12 h-12" 
-              />
-            </div>
-          </div>
+                     </div>
+                       {/* <div className="flex items-center justify-center mb-12">
+              <div className="card glass p-0 w-full">
+                                 <video 
+                   src="/cb this is cb post.mp4" 
+                   autoPlay 
+                   loop 
+                   muted 
+                   playsInline
+                   className="w-full h-auto"
+                   controls
+                 >
+                   Your browser does not support the video tag.
+                 </video>
+              </div>
+            </div> */}
+           <div className="flex items-center justify-center">
+             <div className="flex items-center space-x-6">
+                              <Image 
+                  src="/coursebite logo.png" 
+                  alt="Coursebite Logo" 
+                  width={200} 
+                  height={200} 
+                  className="w-96 h-auto object-contain" 
+                />
+             </div>
+           </div>
         </div>
       </section>
 
@@ -108,97 +122,97 @@ export default function GraphicsPortfolio() {
       <section className="section slide-up">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">DALLAS OMEGAS</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <div className="card glass">
-              <Image 
-                src="/bts party og ver.png" 
-                alt="2BACK SCHOOL Event" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/eboard_cover.png" 
-                alt="EBOARD 23-24 REVEAL" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/rush_kai.png" 
-                alt="Lambda Class" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/rush_johnny2.png" 
-                alt="DALLAS OMEGAS KAPPA CLASS" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/paintball.png" 
-                alt="Paintball an Omega" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/ice bath fundraiser.png" 
-                alt="JEE++ BATH" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/philanthropy workshop.png" 
-                alt="Mental Health Awareness Workshop" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/rush_kaelan.png" 
-                alt="Rush Event" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/rush schedule square.png" 
-                alt="Rush Schedule" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/convention post.png" 
-                alt="Convention Post" 
-                width={300} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
+                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                         <div className="card glass p-0">
+               <Image 
+                 src="/bts party og ver.png" 
+                 alt="2BACK SCHOOL Event" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/eboard_cover.png" 
+                 alt="EBOARD 23-24 REVEAL" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/rush_kai.png" 
+                 alt="Lambda Class" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/rush_johnny2.png" 
+                 alt="DALLAS OMEGAS KAPPA CLASS" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/paintball.png" 
+                 alt="Paintball an Omega" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/ice bath fundraiser.png" 
+                 alt="JEE++ BATH" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/philanthropy workshop.png" 
+                 alt="Mental Health Awareness Workshop" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/rush_kaelan.png" 
+                 alt="Rush Event" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/rush schedule square.png" 
+                 alt="Rush Schedule" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
+                          <div className="card glass p-0">
+               <Image 
+                 src="/convention post.png" 
+                 alt="Convention Post" 
+                 width={300} 
+                 height={300} 
+                 className="w-full h-auto" 
+               />
+             </div>
           </div>
         </div>
       </section>
@@ -209,54 +223,54 @@ export default function GraphicsPortfolio() {
           <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">NO SIGNAL</h2>
           <div className="grid grid-cols-2 gap-6 mb-8">
             <div className="space-y-6">
-              <div className="card glass p-4">
+                             <div className="card glass p-0">
+                                   <Image 
+                    src="/continuity clock typography front.png" 
+                    alt="JAN. 24" 
+                    width={400} 
+                    height={300} 
+                    className="w-full h-auto" 
+                  />
+                </div>
+                <div className="card glass p-0">
+                  <Image 
+                    src="/continuity ig ad.png" 
+                    alt="CONTINUITY" 
+                    width={400} 
+                    height={300} 
+                    className="w-full h-auto" 
+                  />
+                </div>
+              </div>
+              <div className="card glass p-0">
                 <Image 
-                  src="/continuity clock typography front.png" 
-                  alt="JAN. 24" 
+                  src="/continuity clock x pinterest concept black bg.png" 
+                  alt="LIFE IS A CONTINUITY" 
                   width={400} 
-                  height={300} 
-                  className="w-full h-auto rounded-lg" 
+                  height={600} 
+                  className="w-full h-auto" 
                 />
               </div>
-              <div className="card glass p-4">
+            </div>
+            <div className="grid grid-cols-1 gap-6">
+              <div className="card glass p-0">
                 <Image 
-                  src="/continuity ig ad.png" 
-                  alt="CONTINUITY" 
-                  width={400} 
+                  src="/continuity pollinators black bg.png" 
+                  alt="CONTINUITY Floral" 
+                  width={1200} 
                   height={300} 
-                  className="w-full h-auto rounded-lg" 
+                  className="w-full h-auto" 
                 />
               </div>
-            </div>
-            <div className="card glass p-4">
-              <Image 
-                src="/continuity clock x pinterest concept black bg.png" 
-                alt="LIFE IS A CONTINUITY" 
-                width={400} 
-                height={600} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-6">
-            <div className="card glass p-4">
-              <Image 
-                src="/continuity pollinators black bg.png" 
-                alt="CONTINUITY Floral" 
-                width={1200} 
-                height={300} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass p-4">
-              <Image 
-                src="/no signal logo DABTISM.png" 
-                alt="No Signal Logo" 
-                width={400} 
-                height={150} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
+              <div className="card glass p-0">
+                <Image 
+                  src="/no signal logo DABTISM.png" 
+                  alt="No Signal Logo" 
+                  width={400} 
+                  height={150} 
+                  className="w-full h-auto" 
+                />
+             </div>
           </div>
         </div>
       </section>
@@ -266,32 +280,32 @@ export default function GraphicsPortfolio() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">INVISION</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            <div className="card glass">
-              <Image 
-                src="/1 first meeting.png" 
-                alt="INVISION FIRST MEETING" 
-                width={500} 
-                height={700} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/shirt design front.png" 
-                alt="Take Flight Front" 
-                width={700} 
-                height={500} 
-                className="w-full h-auto rounded-lg" 
-              />
-            </div>
-            <div className="card glass">
-              <Image 
-                src="/shirt design back.png" 
-                alt="Take Flight Back" 
-                width={700} 
-                height={500} 
-                className="w-full h-auto rounded-lg" 
-              />
+            <div className="card glass p-0">
+                             <Image 
+                 src="/1 first meeting.png" 
+                 alt="INVISION FIRST MEETING" 
+                 width={500} 
+                 height={700} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/shirt design front.png" 
+                 alt="Take Flight Front" 
+                 width={700} 
+                 height={500} 
+                 className="w-full h-auto" 
+               />
+             </div>
+             <div className="card glass p-0">
+               <Image 
+                 src="/shirt design back.png" 
+                 alt="Take Flight Back" 
+                 width={700} 
+                 height={500} 
+                 className="w-full h-auto" 
+               />
             </div>
           </div>
         </div>
