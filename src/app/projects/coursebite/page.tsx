@@ -352,51 +352,19 @@ export default function CoursebiteCaseStudy() {
           <h2 className="text-5xl font-bold text-white mb-4 font-horizon">DESIGN</h2>
           <p className="text-xl text-text-secondary mb-12">Brainstorming and sketching solutions.</p>
 
-          {/* User Goals vs Business Goals */}
+          {/* Project Goals */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">USER GOALS VS BUSINESS GOALS</h3>
+            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">PROJECT GOALS</h3>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              {/* Venn Diagram */}
+              {/* Venn Diagram Image */}
               <div className="flex justify-center">
-                <div className="relative w-96 h-64">
-                  {/* User Goals Circle */}
-                  <div className="absolute top-0 left-0 w-48 h-48 bg-primary/20 rounded-full border-2 border-primary flex items-center justify-center">
-                    <div className="text-center p-3">
-                      <h4 className="font-semibold text-primary mb-2 text-sm">User Goals</h4>
-                      <ul className="text-text-secondary text-xs space-y-1">
-                        <li>• Efficient studying</li>
-                        <li>• Better grades</li>
-                        <li>• Time management</li>
-                        <li>• Understanding concepts</li>
-                      </ul>
-                    </div>
-                  </div>
-                  
-                  {/* Business Goals Circle */}
-                  <div className="absolute top-0 right-0 w-48 h-48 bg-secondary/20 rounded-full border-2 border-secondary flex items-center justify-center">
-                    <div className="text-center p-3">
-                      <h4 className="font-semibold text-secondary mb-2 text-sm">Business Goals</h4>
-                      <ul className="text-text-secondary text-xs space-y-1">
-                        <li>• User retention</li>
-                        <li>• Revenue growth</li>
-                        <li>• Market expansion</li>
-                        <li>• Brand recognition</li>
-                      </ul>
-                    </div>
-                  </div>
-                  
-                  {/* Overlap Area */}
-                  <div className="absolute top-8 left-24 w-24 h-24 bg-accent/30 rounded-full border-2 border-accent flex items-center justify-center">
-                    <div className="text-center p-1">
-                      <h4 className="font-semibold text-accent text-xs mb-1">Shared Goals</h4>
-                      <ul className="text-text-secondary text-xs space-y-0.5">
-                        <li>• Student success</li>
-                        <li>• Platform adoption</li>
-                        <li>• Long-term engagement</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+                <Image 
+                  src="/cb venn.png" 
+                  alt="Project Goals Venn Diagram" 
+                  width={400} 
+                  height={300} 
+                  className="w-full h-auto rounded-lg" 
+                />
               </div>
               
               {/* Text Description */}
@@ -429,69 +397,69 @@ export default function CoursebiteCaseStudy() {
             </div>
           </div>
 
-          {/* User Flow */}
+          {/* Site Map */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">USER FLOW</h3>
-            <div className="border border-border rounded-lg p-8 bg-transparent">
-              <div className="flex flex-wrap justify-center items-center space-x-4 space-y-4">
-                <div className="bg-primary text-white px-4 py-2 rounded-lg">Upload Materials</div>
-                <div className="text-primary">→</div>
-                <div className="bg-primary text-white px-4 py-2 rounded-lg">AI Analysis</div>
-                <div className="text-primary">→</div>
-                <div className="bg-primary text-white px-4 py-2 rounded-lg">Study Plan</div>
-                <div className="text-primary">→</div>
-                <div className="bg-primary text-white px-4 py-2 rounded-lg">Learn & Practice</div>
-                <div className="text-primary">→</div>
-                <div className="bg-primary text-white px-4 py-2 rounded-lg">Mastery</div>
-              </div>
+            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">SITE MAP</h3>
+            <div className="space-y-6">
+              <Image 
+                src="/Sitemap planning.png" 
+                alt="Coursebite Site Map Planning" 
+                width={800} 
+                height={600} 
+                className="w-full h-auto rounded-lg" 
+              />
+              <p className="text-text-secondary leading-relaxed">
+                The site map outlines the overall structure and navigation flow of the Coursebite platform. 
+                It shows how users will move through different sections including the landing page, dashboard, 
+                study modules, chat interface, and practice areas. This planning ensures a logical and intuitive 
+                user experience from initial onboarding to advanced study features.
+              </p>
             </div>
           </div>
 
-          {/* Brainstorming */}
+          {/* User Flow */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">BRAINSTORMING</h3>
-            <p className="text-text-secondary leading-relaxed mb-6">
-              Through collaborative brainstorming sessions, we generated over 50 ideas focused on 
-              simplifying the learning process. Key themes emerged around AI personalization, 
-              structured learning paths, and interactive study tools.
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="border border-border rounded-lg p-4 text-center bg-transparent">
-                <span className="text-primary font-semibold">AI Chat</span>
-              </div>
-              <div className="border border-border rounded-lg p-4 text-center bg-transparent">
-                <span className="text-primary font-semibold">Study Plans</span>
-              </div>
-              <div className="border border-border rounded-lg p-4 text-center bg-transparent">
-                <span className="text-primary font-semibold">Interactive Practice</span>
-              </div>
-              <div className="border border-border rounded-lg p-4 text-center bg-transparent">
-                <span className="text-primary font-semibold">Progress Tracking</span>
-              </div>
+            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">USER FLOW</h3>
+            <div className="space-y-6">
+              <Image 
+                src="/cb user flow.png" 
+                alt="Coursebite User Flow" 
+                width={800} 
+                height={600} 
+                className="w-full h-auto rounded-lg" 
+              />
+              <p className="text-text-secondary leading-relaxed">
+                The user flow diagram illustrates the step-by-step journey users take through the Coursebite platform, 
+                from initial material upload through AI analysis, study plan generation, and active learning engagement. 
+                This flow ensures users can seamlessly navigate between different features while maintaining focus on 
+                their learning objectives.
+              </p>
             </div>
           </div>
 
           {/* Sketches */}
           <div className="card glass mb-12">
             <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">SKETCHES</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="border border-border rounded-lg p-6 text-center bg-transparent">
-                <div className="w-full h-32 bg-gray-600 rounded mb-4 flex items-center justify-center">
-                  <span className="text-white">Sketch 1</span>
-                </div>
-                <p className="text-text-secondary text-sm">Landing Page Layout</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-4">
+                <Image 
+                  src="/cb sketches 1.png" 
+                  alt="Coursebite Sketches 1" 
+                  width={500} 
+                  height={400} 
+                  className="w-full h-auto rounded-lg" 
+                />
+                <p className="text-text-secondary text-sm text-center">Initial Landing Page Concepts</p>
               </div>
-              <div className="border border-border rounded-lg p-6 text-center bg-transparent">
-                <div className="w-full h-32 bg-gray-600 rounded mb-4 flex items-center justify-center">
-                  <span className="text-white">Sketch 2</span>
-                </div>
-                <p className="text-text-secondary text-sm">App Dashboard</p>
-              </div>
-              <div className="border border-border rounded-lg p-6 text-center bg-transparent">
-                <div className="w-full h-32 bg-gray-600 rounded mb-4 flex items-center justify-center">
-                  <span className="text-white">Sketch 3</span>
-                </div>
-                <p className="text-text-secondary text-sm">Chat Interface</p>
+              <div className="space-y-4">
+                <Image 
+                  src="/cb sketches 2.png" 
+                  alt="Coursebite Sketches 2" 
+                  width={500} 
+                  height={400} 
+                  className="w-full h-auto rounded-lg" 
+                />
+                <p className="text-text-secondary text-sm text-center">App Interface Explorations</p>
               </div>
             </div>
           </div>
@@ -502,30 +470,86 @@ export default function CoursebiteCaseStudy() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-4">
                 <div className="border border-border rounded-lg p-4 bg-transparent">
-                  <div className="w-full h-48 bg-gray-600 rounded mb-3 flex items-center justify-center">
-                    <span className="text-white">Wireframe 1</span>
+                  <Image
+                    src="/wireframe course dash.png"
+                    alt="Course Dashboard Wireframe"
+                    width={400}
+                    height={300}
+                    className="w-full h-auto rounded-lg"
+                  />
+                  <div className="flex justify-between items-center mt-3">
+                    <p className="text-text-secondary text-sm">Course Dashboard</p>
+                    <a 
+                      href="https://www.figma.com/design/iGS02FiVzAblDnkD8n23PN/cb-course-dash-wireframe?m=auto&t=yJWJJSh4lJhmJwbU-6" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary text-sm font-medium hover:underline"
+                    >
+                      Figma
+                    </a>
                   </div>
-                  <p className="text-text-secondary text-sm">Main Dashboard</p>
                 </div>
                 <div className="border border-border rounded-lg p-4 bg-transparent">
-                  <div className="w-full h-48 bg-gray-600 rounded mb-3 flex items-center justify-center">
-                    <span className="text-white">Wireframe 2</span>
+                  <Image
+                    src="/wireframe my courses.png"
+                    alt="My Courses Wireframe"
+                    width={400}
+                    height={300}
+                    className="w-full h-auto rounded-lg"
+                  />
+                  <div className="flex justify-between items-center mt-3">
+                    <p className="text-text-secondary text-sm">My Courses</p>
+                    <a 
+                      href="https://www.figma.com/design/VNtD5rcpmMbVppj9hkkFXP/cb-my-courses-wireframe?m=auto&t=yJWJJSh4lJhmJwbU-6" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary text-sm font-medium hover:underline"
+                    >
+                      Figma
+                    </a>
                   </div>
-                  <p className="text-text-secondary text-sm">Study Plan View</p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="border border-border rounded-lg p-4 bg-transparent">
-                  <div className="w-full h-48 bg-gray-600 rounded mb-3 flex items-center justify-center">
-                    <span className="text-white">Wireframe 3</span>
+                  <Image
+                    src="/wireframe all assign.png"
+                    alt="All Assignments Wireframe"
+                    width={400}
+                    height={300}
+                    className="w-full h-auto rounded-lg"
+                  />
+                  <div className="flex justify-between items-center mt-3">
+                    <p className="text-text-secondary text-sm">All Assignments</p>
+                    <a 
+                      href="https://www.figma.com/design/1riO6vkSZwgs1vMxR2nvfa/cb-all-assign-wireframe?m=auto&t=yJWJJSh4lJhmJwbU-6" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary text-sm font-medium hover:underline"
+                    >
+                      Figma
+                    </a>
                   </div>
-                  <p className="text-text-secondary text-sm">Chat Interface</p>
                 </div>
                 <div className="border border-border rounded-lg p-4 bg-transparent">
-                  <div className="w-full h-48 bg-gray-600 rounded mb-3 flex items-center justify-center">
-                    <span className="text-white">Wireframe 4</span>
+                  <Image
+                    src="/wireframe flashcard.png"
+                    alt="Flashcard Wireframe"
+                    width={400}
+                    height={300}
+                    className="w-full h-auto rounded-lg"
+                  />
+                  <div className="flex justify-between items-center mt-3">
+                    <p className="text-text-secondary text-sm">Flashcard Interface</p>
+                    <a 
+                      href="https://www.figma.com/design/rhpnQweNWIN72NNqNyiFVI/cb-flashcards-wireframe?m=auto&t=yJWJJSh4lJhmJwbU-6" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary text-sm font-medium hover:underline"
+                    >
+                      Figma
+                    </a>
                   </div>
-                  <p className="text-text-secondary text-sm">Practice Module</p>
                 </div>
               </div>
             </div>
