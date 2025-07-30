@@ -443,8 +443,8 @@ export default function CoursebiteCaseStudy() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <Image 
-                  src="/cb sketches 1.png" 
-                  alt="Coursebite Sketches 1" 
+                  src="/sketches-2.png" 
+                  alt="Coursebite Sketches 2" 
                   width={500} 
                   height={400} 
                   className="w-full h-auto rounded-lg" 
@@ -453,8 +453,8 @@ export default function CoursebiteCaseStudy() {
               </div>
               <div className="space-y-4">
                 <Image 
-                  src="/cb sketches 2.png" 
-                  alt="Coursebite Sketches 2" 
+                  src="/sketches-1.png" 
+                  alt="Coursebite Sketches 1" 
                   width={500} 
                   height={400} 
                   className="w-full h-auto rounded-lg" 
