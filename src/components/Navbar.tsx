@@ -35,9 +35,14 @@ export default function Navbar() {
             >
               About
             </Link>
-            <button className="btn-primary">
+            <a 
+              href="https://www.linkedin.com/in/kaelan-nguyen/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
               Contact
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -79,9 +84,14 @@ export default function Navbar() {
               >
                 About
               </Link>
-              <button className="btn-primary w-full">
+              <a 
+                href="https://www.linkedin.com/in/kaelan-nguyen/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn-primary w-full"
+              >
                 Contact
-              </button>
+              </a>
             </div>
           </div>
         )}
