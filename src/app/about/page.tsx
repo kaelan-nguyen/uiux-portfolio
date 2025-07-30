@@ -15,10 +15,11 @@ export default function About() {
             {/* Right Side - Profile Picture */}
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-64 h-64 rounded-full overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent"></div>
-                <div className="absolute inset-2 bg-gray-800 rounded-full flex items-center justify-center">
-                  <span className="text-white text-lg font-cascadia">Profile Photo</span>
-                </div>
+                <img 
+                  src="/kaelan-nguyen-professional-portrait.jpg" 
+                  alt="Kaelan Nguyen Professional Portrait" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
