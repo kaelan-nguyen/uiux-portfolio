@@ -135,7 +135,7 @@ export default function CoursebiteCaseStudy() {
           <div className="card glass mb-12">
             <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">PROBLEM STATEMENT</h3>
             <p className="text-text-secondary leading-relaxed text-lg">
-              CourseBite needs a compelling landing page and intuitive app UI that demonstrates how the platform will transform students' learning experiences rather than just showcasing features. The app should be well-organized and simplify the learning process by providing clear guidance on what to study and how to proceed with their education journey.
+              CourseBite needs a compelling landing page and intuitive app UI that demonstrates how the platform will transform students&apos; learning experiences rather than just showcasing features. The app should be well-organized and simplify the learning process by providing clear guidance on what to study and how to proceed with their education journey.
             </p>
           </div>
 
@@ -143,7 +143,7 @@ export default function CoursebiteCaseStudy() {
           <div className="card glass">
             <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">GOAL</h3>
             <p className="text-text-secondary leading-relaxed text-lg">
-              My goal is to create an aesthetic and compelling landing page to attract conversions and to design and build an app including "chat," "learn," "practice," "reinforce," "flashcards," "study guides," and "practice exams" features. The app should make learning a streamlined experience from start to finish while incorporating proven study methodologies and AI-powered personalization.
+              My goal is to create an aesthetic and compelling landing page to attract conversions and to design and build an app including &quot;chat,&quot; &quot;learn,&quot; &quot;practice,&quot; &quot;reinforce,&quot; &quot;flashcards,&quot; &quot;study guides,&quot; and &quot;practice exams&quot; features. The app should make learning a streamlined experience from start to finish while incorporating proven study methodologies and AI-powered personalization.
             </p>
           </div>
         </div>
@@ -181,7 +181,7 @@ export default function CoursebiteCaseStudy() {
                 <h4 className="font-semibold text-primary mb-4">Question 1</h4>
                 <div className="h-20 mb-4">
                   <p className="text-text-secondary text-sm">
-                    "When you sit down to study for a class, what's the hardest part of getting started?"
+                    &quot;When you sit down to study for a class, what&apos;s the hardest part of getting started?&quot;
                   </p>
                 </div>
                 <button 
@@ -192,7 +192,7 @@ export default function CoursebiteCaseStudy() {
                 </button>
                 {openAnswers.includes(0) && (
                   <p className="text-text-secondary text-sm mt-2 italic">
-                    "Usually I don't know where to begin. I have slides, notes, and textbook chapters, but no idea what's most important or what I'll be tested on."
+                    &quot;Usually I don&apos;t know where to begin. I have slides, notes, and textbook chapters, but no idea what&apos;s most important or what I&apos;ll be tested on.&quot;
                   </p>
                 )}
               </div>
@@ -201,7 +201,7 @@ export default function CoursebiteCaseStudy() {
                 <h4 className="font-semibold text-primary mb-4">Question 2</h4>
                 <div className="h-20 mb-4">
                   <p className="text-text-secondary text-sm">
-                    "How do you currently organize your study materials and plan for exams?"
+                    &quot;How do you currently organize your study materials and plan for exams?&quot;
                   </p>
                 </div>
                 <button 
@@ -212,7 +212,7 @@ export default function CoursebiteCaseStudy() {
                 </button>
                 {openAnswers.includes(1) && (
                   <p className="text-text-secondary text-sm mt-2 italic">
-                    "I kind of just wing it. Sometimes I make a to-do list or use Google Docs, but I often forget where I saved things or end up cramming."
+                    &quot;I kind of just wing it. Sometimes I make a to-do list or use Google Docs, but I often forget where I saved things or end up cramming.&quot;
                   </p>
                 )}
               </div>
@@ -221,7 +221,7 @@ export default function CoursebiteCaseStudy() {
                 <h4 className="font-semibold text-primary mb-4">Question 3</h4>
                 <div className="h-20 mb-4">
                   <p className="text-text-secondary text-sm">
-                    "Where do you go when you don't understand a topic? Does it work well?"
+                    &quot;Where do you go when you don&apos;t understand a topic? Does it work well?&quot;
                   </p>
                 </div>
                 <button 
@@ -232,7 +232,7 @@ export default function CoursebiteCaseStudy() {
                 </button>
                 {openAnswers.includes(2) && (
                   <p className="text-text-secondary text-sm mt-2 italic">
-                    "Usually I Google stuff or ask ChatGPT. Sometimes it helps, but a lot of the time it doesn't match exactly what I'm learning in class."
+                    &quot;Usually I Google stuff or ask ChatGPT. Sometimes it helps, but a lot of the time it doesn&apos;t match exactly what I&apos;m learning in class.&quot;
                   </p>
                 )}
               </div>
@@ -258,7 +258,7 @@ export default function CoursebiteCaseStudy() {
                   </div>
                   <div>
                     <h5 className="font-medium text-white text-sm mb-1">Pain Points</h5>
-                    <p className="text-text-secondary text-xs">Overwhelmed by study materials, doesn't know what's important</p>
+                    <p className="text-text-secondary text-xs">Overwhelmed by study materials, doesn&apos;t know what&apos;s important</p>
                   </div>
                   <div>
                     <h5 className="font-medium text-white text-sm mb-1">Tech Comfort</h5>
@@ -324,7 +324,7 @@ export default function CoursebiteCaseStudy() {
               <div className="border border-border rounded-lg p-6 bg-transparent">
                 <h4 className="font-semibold text-primary mb-3">Overwhelming Materials</h4>
                 <p className="text-text-secondary text-sm">
-                  Students feel overwhelmed by unstructured materials and lack clarity on prioritizing what to study. This suggests strong potential for Coursebite's AI-curated lessons and study guides that highlight key concepts.
+                  Students feel overwhelmed by unstructured materials and lack clarity on prioritizing what to study. This suggests strong potential for Coursebite&apos;s AI-curated lessons and study guides that highlight key concepts.
                 </p>
               </div>
               
@@ -338,7 +338,7 @@ export default function CoursebiteCaseStudy() {
               <div className="border border-border rounded-lg p-6 bg-transparent">
                 <h4 className="font-semibold text-primary mb-3">Contextual Help Needed</h4>
                 <p className="text-text-secondary text-sm">
-                  Students need help contextualized to their specific syllabus and materials. Coursebite's RAG approach can give it an edge by generating answers grounded in their actual textbooks and course notes.
+                  Students need help contextualized to their specific syllabus and materials. Coursebite&apos;s RAG approach can give it an edge by generating answers grounded in their actual textbooks and course notes.
                 </p>
               </div>
             </div>
@@ -389,7 +389,7 @@ export default function CoursebiteCaseStudy() {
                   <h4 className="font-semibold text-accent mb-2">Alignment Strategy</h4>
                   <p className="text-text-secondary text-sm leading-relaxed">
                     By focusing on student success and creating genuine value through AI-powered learning tools, 
-                    we can achieve both user satisfaction and business growth. The platform's success depends on 
+                    we can achieve both user satisfaction and business growth. The platform&apos;s success depends on 
                     students actually improving their academic performance and study habits.
                   </p>
                 </div>
@@ -774,7 +774,7 @@ export default function CoursebiteCaseStudy() {
               <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold text-primary mb-2">User Feedback</h4>
-                  <p className="text-text-secondary text-sm">"Finally, a platform that actually helps me study effectively!"</p>
+                  <p className="text-text-secondary text-sm">&quot;Finally, a platform that actually helps me study effectively!&quot;</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-primary mb-2">Stakeholder Response</h4>
@@ -795,7 +795,7 @@ export default function CoursebiteCaseStudy() {
               <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold text-primary mb-2">User Research Importance</h4>
-                  <p className="text-text-secondary text-sm">Deep user research revealed pain points we hadn't initially considered</p>
+                  <p className="text-text-secondary text-sm">Deep user research revealed pain points we hadn&apos;t initially considered</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-primary mb-2">Iteration Value</h4>
