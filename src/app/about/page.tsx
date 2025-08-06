@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function About() {
   return (
     <div className="min-h-screen relative">
@@ -15,9 +17,11 @@ export default function About() {
             {/* Right Side - Profile Picture */}
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-96 h-auto">
-                <img 
+                <Image 
                   src="/kaelan-nguyen-professional-portrait.jpg" 
                   alt="Kaelan Nguyen Professional Portrait" 
+                  width={400}
+                  height={500}
                   className="w-full h-auto object-contain"
                 />
               </div>

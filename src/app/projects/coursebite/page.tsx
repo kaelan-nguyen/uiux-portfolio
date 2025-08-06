@@ -584,7 +584,7 @@ export default function CoursebiteCaseStudy() {
           <div className="card glass mb-12">
             <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">HIGH FIDELITY WIREFRAMES</h3>
             <p className="text-text-secondary leading-relaxed mb-8">
-              These high-fidelity wireframes showcase the refined user interface designs for CourseBite's core features. 
+              These high-fidelity wireframes showcase the refined user interface designs for CourseBite&apos;s core features. 
               Each screen demonstrates the application of our branding system and design principles to create an intuitive 
               and engaging learning experience. The designs focus on clarity, accessibility, and seamless user flow.
             </p>
@@ -644,7 +644,7 @@ export default function CoursebiteCaseStudy() {
             </div>
             <div className="mt-8 text-center">
               <p className="text-text-secondary">
-                Here's a link to the <a href="https://www.figma.com/design/z4I2EShGiVHlzOwzuHhK70/cb?node-id=0-1&t=fX5fBapLLnlaARzC-1" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">Figma</a>
+                Here&apos;s a link to the <a href="https://www.figma.com/design/z4I2EShGiVHlzOwzuHhK70/cb?node-id=0-1&t=fX5fBapLLnlaARzC-1" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">Figma</a>
               </p>
             </div>
           </div>
