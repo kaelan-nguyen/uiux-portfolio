@@ -567,64 +567,16 @@ export default function CoursebiteCaseStudy() {
           <div className="card glass mb-12">
             <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">BRANDING</h3>
             
-            {/* Color Palette */}
-            <div className="mb-8">
-              <h4 className="text-xl font-semibold text-primary mb-4">Color Palette</h4>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-primary rounded-lg mx-auto mb-2"></div>
-                  <p className="text-text-secondary text-sm">Primary</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-secondary rounded-lg mx-auto mb-2"></div>
-                  <p className="text-text-secondary text-sm">Secondary</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-accent rounded-lg mx-auto mb-2"></div>
-                  <p className="text-text-secondary text-sm">Accent</p>
-                </div>
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-surface rounded-lg mx-auto mb-2"></div>
-                  <p className="text-text-secondary text-sm">Surface</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Typography */}
-            <div className="mb-8">
-              <h4 className="text-xl font-semibold text-primary mb-4">Typography</h4>
-              <div className="space-y-2">
-                <h1 className="text-4xl font-bold text-white">Heading 1</h1>
-                <h2 className="text-2xl font-semibold text-white">Heading 2</h2>
-                <h3 className="text-xl font-medium text-white">Heading 3</h3>
-                <p className="text-text-secondary">Body text for regular content</p>
-              </div>
-            </div>
-
-            {/* UI Components */}
-            <div>
-              <h4 className="text-xl font-semibold text-primary mb-4">UI Components</h4>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="space-y-4">
-                  <button className="btn-primary w-full">Primary Button</button>
-                  <button className="btn-secondary w-full">Secondary Button</button>
-                </div>
-                <div className="space-y-4">
-                  <div className="border border-border rounded-lg p-3 bg-transparent">
-                    <input type="text" placeholder="Input field" className="w-full bg-transparent text-white placeholder-text-muted outline-none" />
-                  </div>
-                  <div className="border border-border rounded-lg p-3 bg-transparent">
-                    <select className="w-full bg-transparent text-white outline-none">
-                      <option>Dropdown</option>
-                    </select>
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <div className="card">
-                    <p className="text-text-secondary text-sm">Card Component</p>
-                  </div>
-                </div>
-              </div>
+            <div className="flex justify-center">
+              <Image 
+                src="/mood-board.png" 
+                alt="Coursebite Mood Board" 
+                width={1200} 
+                height={900} 
+                className="w-full max-w-6xl h-auto rounded-lg shadow-lg" 
+                quality={100}
+                priority
+              />
             </div>
           </div>
 
@@ -750,18 +702,7 @@ export default function CoursebiteCaseStudy() {
             </div>
           </div>
 
-          {/* Final Design */}
-          <div className="card glass">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">FINAL DESIGN</h3>
-            <div className="text-center">
-              <div className="w-full max-w-md mx-auto border border-border rounded-lg p-8 bg-transparent">
-                <div className="w-full h-64 bg-gray-600 rounded mb-4 flex items-center justify-center">
-                  <span className="text-white">Final App Design</span>
-                </div>
-                <p className="text-text-secondary text-sm">Polished education platform ready for development</p>
-              </div>
-            </div>
-          </div>
+
         </div>
       </section>
 
