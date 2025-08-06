@@ -74,7 +74,7 @@ export default function About() {
               <li>React.js</li>
               <li>CSS</li>
               <li>Illustrator</li>
-              <li>InDesign</li>
+              <li>DaVinci Resolve</li>
             </ul>
           </div>
 
