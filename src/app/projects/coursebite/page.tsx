@@ -111,7 +111,7 @@ export default function CoursebiteCaseStudy() {
             </div>
             <div className="card glass hover:glow">
               <div className="text-center">
-                <h3 className="text-3xl font-bold text-secondary mb-2">3+</h3>
+                <h3 className="text-3xl font-bold text-secondary mb-2">2</h3>
                 <p className="text-text-secondary">Months Duration</p>
               </div>
             </div>
