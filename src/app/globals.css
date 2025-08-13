@@ -30,7 +30,7 @@
   --color-text-muted: var(--text-muted);
   --color-border: var(--border);
   --color-border-light: var(--border-light);
-  --font-sans: var(--font-cascadia);
+  --font-sans: var(--font-work-sans);
   --font-inter: var(--font-inter);
   --font-work-sans: var(--font-work-sans);
   --font-horizon: var(--font-horizon);
@@ -47,7 +47,7 @@ html {
 body {
   background: #000000;
   color: var(--text-primary);
-  font-family: var(--font-cascadia), 'Cascadia Mono', 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-family: var(--font-work-sans), 'Work Sans', sans-serif;
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
@@ -210,6 +210,11 @@ body {
 
 .animate-spin-reverse {
   animation: spin-reverse 20s linear infinite;
+}
+
+/* Font classes */
+.font-cascadia-mono {
+  font-family: var(--font-cascadia), 'Cascadia Mono', 'Consolas', 'Monaco', 'Courier New', monospace;
 }
 
 /* Animation classes */

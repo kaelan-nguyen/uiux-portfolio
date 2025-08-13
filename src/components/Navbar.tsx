@@ -14,19 +14,19 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <Link 
               href="/" 
-              className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
+              className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium font-cascadia-mono"
             >
               HOME
             </Link>
             <Link 
               href="/projects" 
-              className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
+              className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium font-cascadia-mono"
             >
               PROJECTS
             </Link>
             <Link 
               href="/about" 
-              className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
+              className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium font-cascadia-mono"
             >
               ABOUT
             </Link>
@@ -34,7 +34,7 @@ export default function Navbar() {
               href="https://www.linkedin.com/in/kaelan-nguyen/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="btn-primary"
+              className="btn-primary font-cascadia-mono"
             >
               CONTACT
             </a>
@@ -61,20 +61,20 @@ export default function Navbar() {
             <div className="flex flex-col space-y-4">
               <Link 
                 href="/" 
-                className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
+                className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium font-cascadia-mono"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link 
                 href="/projects" 
-                className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
+                className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium font-cascadia-mono"
               >
                 Projects
               </Link>
               <Link 
                 href="/about" 
-                className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
+                className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium font-cascadia-mono"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
@@ -83,7 +83,7 @@ export default function Navbar() {
                 href="https://www.linkedin.com/in/kaelan-nguyen/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="btn-primary w-full"
+                className="btn-primary w-full font-cascadia-mono"
               >
                 Contact
               </a>

@@ -6,7 +6,7 @@ export default function GraphicsPortfolio() {
     <div className="min-h-screen relative">
       {/* Return to Projects Link */}
       <div className="absolute top-4 left-8 z-20">
-        <Link href="/projects" className="inline-flex items-center gap-2 px-4 py-2 text-text-secondary hover:text-primary transition-colors duration-300 font-medium">
+        <Link href="/projects" className="inline-flex items-center gap-2 px-4 py-2 text-text-secondary hover:text-primary transition-colors duration-300 font-medium font-cascadia-mono">
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
@@ -19,7 +19,7 @@ export default function GraphicsPortfolio() {
         <div className="max-w-7xl mx-auto">
           {/* Main Title */}
           <div className="text-center mb-20">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 font-horizon text-white glow-text">
+            <h1 className="text-5xl md:text-6xl font-medium mb-6 font-work-sans text-white glow-text">
               GRAPHICS PORTFOLIO
             </h1>
             <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto">
@@ -32,7 +32,7 @@ export default function GraphicsPortfolio() {
       {/* Freelance Commissions Section */}
       <section className="section slide-up">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">FREELANCE COMMISSIONS</h2>
+                                             <h2 className="text-4xl font-medium text-white mb-12 font-work-sans">Freelance Commissions</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="card glass p-0">
                              <Image 
@@ -59,7 +59,7 @@ export default function GraphicsPortfolio() {
       {/* Coursebite Section */}
       <section className="section slide-up">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">COURSEBITE</h2>
+                                             <h2 className="text-4xl font-medium text-white mb-12 font-work-sans">Coursebite</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="card glass p-0">
                              <Image 
@@ -118,7 +118,7 @@ export default function GraphicsPortfolio() {
       {/* Dallas Omegas Section */}
       <section className="section slide-up">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">DALLAS OMEGAS</h2>
+                                             <h2 className="text-4xl font-medium text-white mb-12 font-work-sans">Dallas Omegas</h2>
                      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                          <div className="card glass p-0">
                <Image 
@@ -217,7 +217,7 @@ export default function GraphicsPortfolio() {
       {/* No Signal Section */}
       <section className="section slide-up">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">NO SIGNAL</h2>
+                                             <h2 className="text-4xl font-medium text-white mb-12 font-work-sans">No Signal</h2>
           <div className="grid grid-cols-2 gap-6 mb-8">
             <div className="space-y-6">
                              <div className="card glass p-0">
@@ -275,7 +275,7 @@ export default function GraphicsPortfolio() {
       {/* Invision Section */}
       <section className="section slide-up">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-white mb-12 font-cascadia">INVISION</h2>
+                                             <h2 className="text-4xl font-medium text-white mb-12 font-work-sans">Invision</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="card glass p-0">
                              <Image 

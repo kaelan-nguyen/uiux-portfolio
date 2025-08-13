@@ -22,10 +22,10 @@ export default function Projects() {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 font-horizon text-white glow-text">
-              PROJECTS
+            <h1 className="text-5xl md:text-6xl font-medium mb-6 font-work-sans text-white glow-text">
+              Projects
             </h1>
-            <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-text-secondary font-work-sans max-w-3xl mx-auto">
               A collection of my work in UI/UX design, graphic design, and web development.
             </p>
           </div>

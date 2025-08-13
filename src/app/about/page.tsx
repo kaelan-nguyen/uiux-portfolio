@@ -9,7 +9,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             {/* Left Side - Text */}
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 font-horizon text-white glow-text text-left leading-tight">
+              <h1 className="text-4xl md:text-5xl font-medium mb-6 font-work-sans text-white glow-text text-left leading-tight">
                 UI/UX designer with a background in Graphic design. Based in Dallas, Texas.
               </h1>
             </div>
@@ -32,7 +32,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* BIO Section */}
             <div className="lg:col-span-2">
-              <h2 className="text-2xl font-bold text-white mb-6 font-cascadia">BIO</h2>
+              <h2 className="text-2xl font-medium text-white mb-6 font-work-sans">Bio</h2>
               <div className="space-y-4 text-text-secondary leading-relaxed">
                 <p>
                   Starting out in graphic design, I always had a passion for creating visually appealing work. 
@@ -52,7 +52,7 @@ export default function About() {
 
             {/* SKILLS Section */}
             <div>
-              <h2 className="text-2xl font-bold text-white mb-6 font-cascadia">SKILLS</h2>
+              <h2 className="text-2xl font-medium text-white mb-6 font-work-sans">Skills</h2>
               <ul className="space-y-3 text-text-secondary">
                 <li>Visual Design & Branding</li>
                 <li>User Interface Design</li>
@@ -71,7 +71,7 @@ export default function About() {
 
           {/* DESIGN TOOLS Section */}
           <div className="mt-12">
-            <h2 className="text-2xl font-bold text-white mb-6 font-cascadia">DESIGN TOOLS</h2>
+                                                     <h2 className="text-2xl font-medium text-white mb-6 font-work-sans">Design Tools</h2>
             <ul className="space-y-3 text-text-secondary">
               <li>Figma</li>
               <li>Photoshop</li>
@@ -86,25 +86,25 @@ export default function About() {
           <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Work Experience */}
             <div className="card glass slide-up">
-              <h2 className="text-2xl font-bold text-white mb-6 font-cascadia">Work Experience</h2>
+              <h2 className="text-2xl font-medium text-white mb-6 font-work-sans">Work Experience</h2>
               
               <div className="space-y-6">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                   <div>
-                    <h3 className="text-lg font-semibold text-white mb-1 font-cascadia">Coursebite Education</h3>
+                    <h3 className="text-lg font-semibold text-white mb-1 font-work-sans">Coursebite Education</h3>
                     <p className="text-primary font-medium">Graphic Designer</p>
                   </div>
-                  <span className="text-text-muted text-sm mt-2 md:mt-0 font-cascadia">
+                  <span className="text-text-muted text-sm mt-2 md:mt-0 font-work-sans">
                     June 2024 - Current
                   </span>
                 </div>
 
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                   <div>
-                    <h3 className="text-lg font-semibold text-white mb-1 font-cascadia">Dallas Omegas</h3>
+                    <h3 className="text-lg font-semibold text-white mb-1 font-work-sans">Dallas Omegas</h3>
                     <p className="text-primary font-medium">Graphics Chair</p>
                   </div>
-                  <span className="text-text-muted text-sm mt-2 md:mt-0 font-cascadia">
+                  <span className="text-text-muted text-sm mt-2 md:mt-0 font-work-sans">
                     January 2023 - May 2024
                   </span>
                 </div>
@@ -113,14 +113,14 @@ export default function About() {
 
             {/* Education */}
             <div className="card glass slide-up">
-              <h2 className="text-2xl font-bold text-white mb-6 font-cascadia">Education</h2>
+              <h2 className="text-2xl font-medium text-white mb-6 font-work-sans">Education</h2>
               
               <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                 <div>
-                  <h3 className="text-lg font-semibold text-white mb-1 font-cascadia">The University of Texas at Dallas</h3>
+                  <h3 className="text-lg font-semibold text-white mb-1 font-work-sans">The University of Texas at Dallas</h3>
                   <p className="text-primary font-medium">Student</p>
                 </div>
-                <span className="text-text-muted text-sm mt-2 md:mt-0 font-cascadia">
+                <span className="text-text-muted text-sm mt-2 md:mt-0 font-work-sans">
                   August 2022 - Current
                 </span>
               </div>

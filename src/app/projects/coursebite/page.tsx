@@ -19,7 +19,7 @@ export default function CoursebiteCaseStudy() {
     <div className="min-h-screen relative">
       {/* Return to Projects Link */}
       <div className="absolute top-4 left-8 z-20">
-        <Link href="/projects" className="inline-flex items-center gap-2 px-4 py-2 text-text-secondary hover:text-primary transition-colors duration-300 font-medium">
+        <Link href="/projects" className="inline-flex items-center gap-2 px-4 py-2 text-text-secondary hover:text-primary transition-colors duration-300 font-medium font-cascadia-mono">
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
@@ -32,10 +32,10 @@ export default function CoursebiteCaseStudy() {
         <div className="max-w-6xl mx-auto">
           {/* Main Title */}
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 font-horizon text-white glow-text">
-              COURSEBITE
+            <h1 className="text-5xl md:text-6xl font-medium mb-6 font-work-sans text-white glow-text">
+              CourseBite
             </h1>
-            <p className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-text-secondary font-work-sans max-w-3xl mx-auto">
               An AI-powered education platform that revolutionizes how students study and learn.
             </p>
           </div>
@@ -55,42 +55,42 @@ export default function CoursebiteCaseStudy() {
 
           {/* Project Overview Card */}
           <div className="card glass mb-16 slide-up">
-            <h2 className="text-3xl font-bold text-white mb-8 font-cascadia">PROJECT OVERVIEW</h2>
+            <h2 className="text-3xl font-medium text-white mb-8 font-work-sans">Project Overview</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-primary mb-3">Project Goals</h3>
-                  <ul className="text-text-secondary space-y-2">
+                  <h3 className="text-xl font-medium text-primary font-work-sans mb-3">Project Goals</h3>
+                  <ul className="text-text-secondary space-y-2 font-work-sans ">
                     <li>• Create an intuitive AI-powered study platform</li>
                     <li>• Streamline the learning process with RAG technology</li>
                     <li>• Improve student engagement and comprehension</li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary mb-3">Problem</h3>
-                  <p className="text-text-secondary">
+                  <h3 className="text-xl font-medium text-primary font-work-sans mb-3">Problem</h3>
+                  <p className="text-text-secondary font-work-sans">
                     Students struggle with unstructured study materials, lack of clear learning paths, and difficulty finding relevant, contextual help for their specific courses.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary mb-3">Solution</h3>
-                  <p className="text-text-secondary">
+                  <h3 className="text-xl font-medium text-primary font-work-sans mb-3">Solution</h3>
+                  <p className="text-text-secondary font-work-sans">
                     An AI platform that uses retrieval augmented generation to parse textbooks and syllabi, creating personalized study plans and interactive learning experiences.
                   </p>
                 </div>
               </div>
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-xl font-semibold text-primary mb-3">My Role</h3>
-                  <ul className="text-text-secondary space-y-2">
+                  <h3 className="text-xl font-medium text-primary font-work-sans mb-3">My Role</h3>
+                  <ul className="text-text-secondary space-y-2 font-work-sans">
                     <li>• UI/UX Design</li>
                     <li>• Web Development</li>
                     <li>• Graphics</li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-primary mb-3">Tools</h3>
-                  <ul className="text-text-secondary space-y-2">
+                  <h3 className="text-xl font-medium text-primary font-work-sans mb-3">Tools</h3>
+                  <ul className="text-text-secondary space-y-2 font-work-sans">
                     <li>• Figma</li>
                     <li>• Adobe Creative Suite</li>
                     <li>• Miro</li>
@@ -105,20 +105,20 @@ export default function CoursebiteCaseStudy() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 slide-up">
             <div className="card glass hover:glow">
               <div className="text-center">
-                <h3 className="text-3xl font-bold text-primary mb-2">5</h3>
-                <p className="text-text-secondary">Student Interviews</p>
+                <h3 className="text-3xl font-bold text-primary mb-2 font-work-sans">5</h3>
+                <p className="text-text-secondary font-cascadia-mono">STUDENT INTERVIEWS</p>
               </div>
             </div>
             <div className="card glass hover:glow">
               <div className="text-center">
-                <h3 className="text-3xl font-bold text-secondary mb-2">2</h3>
-                <p className="text-text-secondary">Months Duration</p>
+                <h3 className="text-3xl font-bold text-secondary font-work-sans mb-2">2</h3>
+                <p className="text-text-secondary font-cascadia-mono">MONTHS DURATION</p>
               </div>
             </div>
             <div className="card glass hover:glow">
               <div className="text-center">
-                <h3 className="text-3xl font-bold text-accent mb-2">7</h3>
-                <p className="text-text-secondary">Core Features</p>
+                <h3 className="text-3xl font-bold text-accent font-work-sans mb-2">7</h3>
+                <p className="text-text-secondary font-cascadia-mono">CORE FEATURES</p>
               </div>
             </div>
           </div>
@@ -128,12 +128,12 @@ export default function CoursebiteCaseStudy() {
       {/* Define Section */}
       <section className="section slide-up">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold text-white mb-4 font-horizon">DEFINE</h2>
+          <h2 className="text-5xl font-medium text-white mb-4 font-work-sans">Define</h2>
           <p className="text-xl text-text-secondary mb-12">Defining the problem and scope.</p>
 
           {/* Problem Statement */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">PROBLEM STATEMENT</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Problem Statement</h3>
             <p className="text-text-secondary leading-relaxed text-lg">
               CourseBite needs a compelling landing page and intuitive app UI that demonstrates how the platform will transform students&apos; learning experiences rather than just showcasing features. The app should be well-organized and simplify the learning process by providing clear guidance on what to study and how to proceed with their education journey.
             </p>
@@ -141,7 +141,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* Goal */}
           <div className="card glass">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">GOAL</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Goal</h3>
             <p className="text-text-secondary leading-relaxed text-lg">
               My goal is to create an aesthetic and compelling landing page to attract conversions and to design and build an app including &quot;chat,&quot; &quot;learn,&quot; &quot;practice,&quot; &quot;reinforce,&quot; &quot;flashcards,&quot; &quot;study guides,&quot; and &quot;practice exams&quot; features. The app should make learning a streamlined experience from start to finish while incorporating proven study methodologies and AI-powered personalization.
             </p>
@@ -152,12 +152,12 @@ export default function CoursebiteCaseStudy() {
       {/* Research Section */}
       <section className="section slide-up">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold text-white mb-4 font-horizon">RESEARCH</h2>
+          <h2 className="text-5xl font-medium text-white mb-4 font-work-sans">Research</h2>
           <p className="text-xl text-text-secondary mb-12">Empathizing with users and understanding their needs.</p>
 
           {/* Competitive Analysis */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">COMPETITIVE ANALYSIS</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Competitive Analysis</h3>
             <div className="flex justify-center">
               <Image 
                 src="/competitors.png" 
@@ -171,7 +171,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* Interviews */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">INTERVIEWS</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Interviews</h3>
             <p className="text-text-secondary leading-relaxed mb-8">
               I conducted interviews with 5 students to understand their studying and learning pain points, gaining insights into their current study habits and challenges.
             </p>
@@ -188,7 +188,7 @@ export default function CoursebiteCaseStudy() {
                   onClick={() => toggleAnswer(0)}
                   className="text-primary text-sm font-medium hover:underline"
                 >
-                  {openAnswers.includes(0) ? 'Hide Answer' : 'STUDENTS SAID:'}
+                  {openAnswers.includes(0) ? 'Hide Answer' : <span className="font-cascadia-mono">STUDENTS SAID:</span>}
                 </button>
                 {openAnswers.includes(0) && (
                   <p className="text-text-secondary text-sm mt-2 italic">
@@ -208,7 +208,7 @@ export default function CoursebiteCaseStudy() {
                   onClick={() => toggleAnswer(1)}
                   className="text-primary text-sm font-medium hover:underline"
                 >
-                  {openAnswers.includes(1) ? 'Hide Answer' : 'STUDENTS SAID:'}
+                  {openAnswers.includes(1) ? 'Hide Answer' : <span className="font-cascadia-mono">STUDENTS SAID:</span>}
                 </button>
                 {openAnswers.includes(1) && (
                   <p className="text-text-secondary text-sm mt-2 italic">
@@ -228,7 +228,7 @@ export default function CoursebiteCaseStudy() {
                   onClick={() => toggleAnswer(2)}
                   className="text-primary text-sm font-medium hover:underline"
                 >
-                  {openAnswers.includes(2) ? 'Hide Answer' : 'STUDENTS SAID:'}
+                  {openAnswers.includes(2) ? 'Hide Answer' : <span className="font-cascadia-mono">STUDENTS SAID:</span>}
                 </button>
                 {openAnswers.includes(2) && (
                   <p className="text-text-secondary text-sm mt-2 italic">
@@ -241,7 +241,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* User Personas */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">USER PERSONAS</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">User Personas</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border border-border rounded-lg p-6 bg-transparent">
                 <div className="text-center mb-4">
@@ -319,7 +319,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* Findings */}
           <div className="card glass">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">FINDINGS</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Findings</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="border border-border rounded-lg p-6 bg-transparent">
                 <h4 className="font-semibold text-primary mb-3">Overwhelming Materials</h4>
@@ -349,12 +349,12 @@ export default function CoursebiteCaseStudy() {
       {/* Design Section */}
       <section className="section slide-up">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold text-white mb-4 font-horizon">DESIGN</h2>
+          <h2 className="text-5xl font-medium text-white mb-4 font-work-sans">Design</h2>
           <p className="text-xl text-text-secondary mb-12">Brainstorming and sketching solutions.</p>
 
           {/* Project Goals */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">PROJECT GOALS</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Project Goals</h3>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               {/* Venn Diagram Image */}
               <div className="flex justify-center">
@@ -399,7 +399,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* Site Map */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">SITE MAP</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Site Map</h3>
             <div className="space-y-6">
               <Image 
                 src="/Sitemap planning.png" 
@@ -419,7 +419,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* User Flow */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">USER FLOW</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">User Flow</h3>
             <div className="space-y-6">
               <Image 
                 src="/cb-user-flow.png" 
@@ -439,7 +439,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* Sketches */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">SKETCHES</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Sketches</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <Image 
@@ -466,7 +466,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* Wireframes */}
           <div className="card glass">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">WIREFRAMES</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Wireframes</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-4">
                 <div className="border border-border rounded-lg p-4 bg-transparent">
@@ -560,12 +560,12 @@ export default function CoursebiteCaseStudy() {
       {/* Prototype Section */}
       <section className="section slide-up">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold text-white mb-4 font-horizon">PROTOTYPE</h2>
+          <h2 className="text-5xl font-medium text-white mb-4 font-work-sans">Prototype</h2>
           <p className="text-xl text-text-secondary mb-12">Bringing the designs to life.</p>
 
           {/* Branding */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">BRANDING</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Branding</h3>
             
             <div className="flex justify-center">
               <Image 
@@ -582,7 +582,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* High Fidelity Wireframes */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">HIGH FIDELITY WIREFRAMES</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">High Fidelity Wireframes</h3>
             <p className="text-text-secondary leading-relaxed mb-8">
               These high-fidelity wireframes showcase the refined user interface designs for CourseBite&apos;s core features. 
               Each screen demonstrates the application of our branding system and design principles to create an intuitive 
@@ -654,35 +654,35 @@ export default function CoursebiteCaseStudy() {
       {/* Test Section */}
       <section className="section slide-up">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold text-white mb-4 font-horizon">TEST</h2>
+          <h2 className="text-5xl font-medium text-white mb-4 font-work-sans">Test</h2>
           <p className="text-xl text-text-secondary mb-12">Gathering feedback and iterating.</p>
 
           {/* Usability Testing */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">USABILITY TESTING</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Usability Testing</h3>
             <p className="text-text-secondary leading-relaxed mb-6">
               We conducted usability testing with 15 participants across different demographics. 
               The testing focused on task completion rates, time on task, and user satisfaction scores.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
-                <h4 className="text-2xl font-bold text-primary mb-2">87%</h4>
-                <p className="text-text-secondary text-sm">Task Completion Rate</p>
+                <h4 className="text-2xl font-semibold text-primary mb-2">87%</h4>
+                <p className="text-text-secondary text-sm font-cascadia-mono">TASK COMPLETION RATE</p>
               </div>
               <div className="text-center">
-                <h4 className="text-2xl font-bold text-secondary mb-2">2.3 min</h4>
-                <p className="text-text-secondary text-sm">Average Time on Task</p>
+                <h4 className="text-2xl font-semibold text-secondary mb-2">2.3 min</h4>
+                <p className="text-text-secondary text-sm font-cascadia-mono">AVERAGE TIME ON TASK</p>
               </div>
               <div className="text-center">
-                <h4 className="text-2xl font-bold text-accent mb-2">4.8/5</h4>
-                <p className="text-text-secondary text-sm">User Satisfaction</p>
+                <h4 className="text-2xl font-semibold text-accent mb-2">4.8/5</h4>
+                <p className="text-text-secondary text-sm font-cascadia-mono">USER SATISFACTION</p>
               </div>
             </div>
           </div>
 
           {/* Feedback & Iterations */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">FEEDBACK & ITERATIONS</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Feedback & Iterations</h3>
             <div className="space-y-6">
               <div className="border-l-4 border-primary pl-4">
                 <h4 className="font-semibold text-white mb-2">Navigation Confusion</h4>
@@ -709,12 +709,12 @@ export default function CoursebiteCaseStudy() {
       {/* Results Section */}
       <section className="section slide-up">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-5xl font-bold text-white mb-4 font-horizon">RESULTS</h2>
+          <h2 className="text-5xl font-medium text-white mb-4 font-work-sans">Results</h2>
           <p className="text-xl text-text-secondary mb-12">Key outcomes and impact of the project.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="card glass">
-              <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">Quantitative Results</h3>
+              <h3 className="text-2xl font-bold text-white mb-6 font-work-sans">Quantitative Results</h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-text-secondary">User Engagement</span>
@@ -736,7 +736,7 @@ export default function CoursebiteCaseStudy() {
             </div>
 
             <div className="card glass">
-              <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">Qualitative Results</h3>
+              <h3 className="text-2xl font-bold text-white mb-6 font-work-sans">Qualitative Results</h3>
               <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold text-primary mb-2">User Feedback</h4>
@@ -756,7 +756,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* Key Learnings */}
           <div className="card glass mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">KEY LEARNINGS</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Key Learnings</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-4">
                 <div>
@@ -783,7 +783,7 @@ export default function CoursebiteCaseStudy() {
 
           {/* Future Scope */}
           <div className="card glass">
-            <h3 className="text-2xl font-bold text-white mb-6 font-cascadia">FUTURE SCOPE</h3>
+            <h3 className="text-2xl font-medium text-white mb-6 font-work-sans">Future Scope</h3>
             <div className="space-y-4">
               <p className="text-text-secondary leading-relaxed">
                 The success of this project has opened opportunities for expanding into additional educational 
@@ -811,10 +811,10 @@ export default function CoursebiteCaseStudy() {
       <section className="section slide-up">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex flex-col md:flex-row gap-6 justify-center">
-            <Link href="/projects" className="btn-primary">
+            <Link href="/projects" className="btn-primary font-cascadia-mono">
               VIEW MORE PROJECTS
             </Link>
-            <Link href="/about" className="btn-secondary">
+            <Link href="/about" className="btn-secondary font-cascadia-mono">
               GET IN TOUCH
             </Link>
           </div>
