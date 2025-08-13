@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cascadia_Code, Inter } from "next/font/google";
+import { Cascadia_Code, Inter, Work_Sans } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -11,6 +11,11 @@ const cascadiaCode = Cascadia_Code({
 
 const inter = Inter({
   variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+const workSans = Work_Sans({
+  variable: "--font-work-sans",
   subsets: ["latin"],
 });
 
@@ -32,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${cascadiaCode.variable} ${inter.variable} ${horizon.variable} antialiased bg-black min-h-screen`}>
+      <body className={`${cascadiaCode.variable} ${inter.variable} ${workSans.variable} ${horizon.variable} antialiased bg-black min-h-screen`}>
         <div className="relative">
           <div className="relative z-10">
             <Navbar />

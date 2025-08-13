@@ -9,31 +9,26 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-lg">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 group">
-            <span className="text-xl font-bold font-cascadia text-white">Kaelan Nguyen</span>
-          </Link>
-
+        <div className="flex justify-center items-center h-16">
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link 
               href="/" 
               className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
             >
-              Home
+              HOME
             </Link>
             <Link 
               href="/projects" 
               className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
             >
-              Projects
+              PROJECTS
             </Link>
             <Link 
               href="/about" 
               className="px-4 py-2 rounded-lg text-text-secondary hover:text-primary hover:bg-surface-light/50 transition-all duration-300 font-medium"
             >
-              About
+              ABOUT
             </Link>
             <a 
               href="https://www.linkedin.com/in/kaelan-nguyen/" 
@@ -41,13 +36,13 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Contact
+              CONTACT
             </a>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 rounded-lg hover:bg-surface-light transition-colors duration-300"
+            className="md:hidden absolute right-4 p-2 rounded-lg hover:bg-surface-light transition-colors duration-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg className="w-6 h-6 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
