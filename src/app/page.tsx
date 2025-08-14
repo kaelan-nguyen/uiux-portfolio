@@ -1,6 +1,11 @@
+"use client";
+
 import Link from 'next/link';
 import Image from 'next/image';
-import Spline from '@splinetool/react-spline/next';
+
+
+// Import Spline component directly
+import Spline from '@splinetool/react-spline';
 
 export default function Home() {
   return (
@@ -15,16 +20,18 @@ export default function Home() {
 
       {/* Spline Background - Full Screen */}
       <div className="fixed inset-0 w-screen h-screen z-0" style={{ overflow: 'hidden' }}>
-        <Spline
-          scene="https://prod.spline.design/2L0fpcHCEQ2P9uYZ/scene.splinecode"
-          style={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            width: '100vw',
-            height: '100vh'
-          }}
-        />
+        <div onWheel={(e) => e.preventDefault()}>
+          <Spline
+            scene="https://prod.spline.design/2L0fpcHCEQ2P9uYZ/scene.splinecode"
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100vw',
+              height: '100vh'
+            }}
+          />
+        </div>
       </div>
 
              {/* Hero Section */}
